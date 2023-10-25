@@ -9576,12 +9576,13 @@ h6,
 .section-title::after {
   position: absolute;
   content: "";
-  width: 2px;
+  width: 20px;
   height: 100px;
   top: 0;
   left: 50%;
   margin-left: 1px;
-  background: #DA9F5B;
+  /* background: black !important; */
+  background-color: #007bff !important;
 }
 
 .service-icon {
