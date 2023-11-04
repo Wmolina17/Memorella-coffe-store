@@ -29,8 +29,8 @@
 
 <body>
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+    <div class=" cont-nav-g container-fluid p-0 nav-bar">
+        <nav class="nav-grande navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
                 <style>@media (max-width:700px){.logo-r{width: 200px; height: 60px;}}</style>
                 <img class="logo-r" width="320px" height="85px" src="img/logo-sin-fondo.png" alt=""> 
@@ -47,12 +47,14 @@
                 </div>
             </div>
         </nav>
+        <style>@media (min-width:1300px){.nav-grande{max-width: 1350px !important; gap: 600px;} .cont-nav-g{display: flex; justify-content: center; align-items: center ;}}</style>
+
     </div>
     <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-1 position-relative overlay-bottom">
+    <div class="container-fluid page-header mb-0 position-relative overlay-bottom">
         <div class="e-back d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 300px">
             <h2 class="display-5 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Menu</h2>
             <div class="d-inline-flex mb-lg-5">
@@ -68,7 +70,7 @@
 
 
     <!-- Menu Start -->
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-0" style="margin-top: -50px;">
         <div class="container">
             <div class="section-title">
                 <h5 class="text-primary text-uppercase" style="letter-spacing: 5px; font-weight: bold !important;">Menu Y Precios</h5>
@@ -84,7 +86,7 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+    <div id="footer" class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-2 px-sm-3 px-lg-5 mt-4">
             <div class="col-lg-3 col-md-6 mb-1">
                 <img class="logo-f" width="90%" style="margin-top: -40px; margin-bottom: 20px; margin-left: -10px;" src="img/logo-sin-fondo.png" alt="">
@@ -117,8 +119,13 @@
                     <a class="btn btn-lg btn-outline-light btn-lg-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-             
         </div>
+        <style>@media (min-width:1300px){#footer{padding-left: 5% !important; padding-right: 5% !important;}}</style>
+        <style>@media (min-width:1550px){#footer{padding-left: 9% !important; padding-right: 9% !important;}}</style>
+        <style>@media (min-width:1750px){#footer{padding-left: 15% !important; padding-right: 15% !important;}}</style>
+        <style>@media (min-width:2000px){#footer{padding-left: 19% !important; padding-right: 19% !important;}}</style>
+        <style>@media (min-width:2200px){#footer{padding-left: 23% !important; padding-right: 23% !important;}}</style>
+
         <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
             <p class="mb-2 text-white">Copyright &copy;2023 &nbsp; &nbsp; &nbsp; &nbsp; Todos Nuestros Derechos Reservados</p>
             <p class="m-0 text-white">Desarrollado por <a class="font-weight-bold" href=""> &nbsp; W dev | Fullstack developer</a></p>
@@ -126,10 +133,6 @@
         <style>@media (max-width:700px){ .logo-f{width: 60%;}}</style>
     </div>
     <!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class=" rounded-circle btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <script>
